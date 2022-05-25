@@ -1,6 +1,8 @@
 package sg.edu.np.mad.madpractical1;
 
-public class User {
+import java.io.Serializable;
+
+public class User implements Serializable {
     String Name;
     String Description;
     int Id;

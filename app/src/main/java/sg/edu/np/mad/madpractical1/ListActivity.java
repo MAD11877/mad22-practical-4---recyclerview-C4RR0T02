@@ -58,36 +58,5 @@ public class ListActivity extends AppCompatActivity {
         recyclerView.setAdapter(mAdapter);
 
 
-
-        /*
-        ImageView alertPrompt = findViewById(R.id.Alertpromptimage);
-
-        alertPrompt.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Random num = new Random();
-                Integer numint = num.nextInt(999999999);
-
-                AlertDialog.Builder builder = new AlertDialog.Builder(ListActivity.this);
-
-                builder.setTitle("Profile");
-                builder.setMessage("MADness");
-                builder.setPositiveButton("View", new DialogInterface.OnClickListener(){
-                    public void onClick(DialogInterface dialog, int id){
-                        Intent i2 = new Intent(ListActivity.this, MainActivity.class);
-                        i2.putExtra("rNumber", numint);
-                        startActivity(i2);
-                    }
-                });
-                builder.setNegativeButton("Close", new DialogInterface.OnClickListener(){
-                    public void onClick(DialogInterface dialog, int id){
-                    }
-                });
-
-                builder.show();
-            }
-        });
-
-         */
     }
 }
